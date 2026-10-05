@@ -3,7 +3,7 @@
 > 🟡 **部分完成** —— G-code 解析器写完了，**逆运动学当时没做**，参考实现见 `reference/`
 
 - **导师**：Prof. Senyang Wu
-- **组员**：Zhijing Hu, Keqin Wang
+- **组员**：Reynold Hu, Keqin Wang
 - **场景**：浙江大学暑期学习，2018
 
 ---

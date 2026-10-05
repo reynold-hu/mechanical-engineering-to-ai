@@ -21,16 +21,26 @@ pip install opencv-python mediapipe numpy pandas
 
 ---
 
-## 二、识别哪几种手势
+## 二、识别哪几种手势 ⚠️
 
-写在 `model/keypoint_classifier/keypoint_classifier_label.csv`：
+**这里有个坑，先说清楚：项目里有 _两套_ 分类器，各有各的标签文件。**
 
-```
-Open      张开手掌
-Close     握拳
-Pointer   食指单独伸出
-OK        OK 手势
-```
+| 分类器 | 标签文件 | 标签 |
+|:---|:---|:---|
+| **静态手势** | `model/keypoint_classifier/keypoint_classifier_label.csv` | `Open` `Close` `Pointer` `OK` |
+| **手部轨迹** | `model/point_history_classifier/point_history_classifier_label.csv` | `Stop` `Clockwise` `Counter Clockwise` `Move` |
+
+- **keypoint** 分类器看的是**手的形状**（21 个关键点的位置）
+- **point_history** 分类器看的是**手的运动轨迹**（关键点随时间的变化）
+
+两套数据是**同一次采集**产出的 —— 采集脚本每一帧既存了关键点（给 keypoint），
+也存了轨迹（给 point_history）。
+
+> ⚠️ **已知的文档不一致**：本目录 `README.md` 里写的是
+> *"8000+ Training dataset with 8 different hand gestures"*，并列出
+> Stop / Good / Yes / Love you / No way / Okay / Gimme a second / Call me later ——
+> **这 8 个名字和上面两个标签文件都对不上**。
+> 以标签文件为准；README 那段应该是早期版本或写混了。（这条待本人核实）
 
 **采集时每个手势多换几个角度**（正对、倾斜、远一点近一点），否则模型泛化会很差。
 

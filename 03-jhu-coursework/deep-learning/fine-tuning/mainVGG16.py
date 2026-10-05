@@ -1,7 +1,7 @@
 # coding: utf-8
 # +
 import sys
-sys.path.append('/Downloads/HW of DL/DL_Hw3_Zhijing Hu')  # path contains python_file.py
+sys.path.append('/Downloads/HW of DL/DL_Hw3_Reynold Hu')  # path contains python_file.py
 
 import vgg16
 # -

@@ -17,7 +17,7 @@ Extended Yale Face Database B 由耶鲁大学公开发布，用于人脸识别�
 
 ## 代码期望的路径
 
-`Face_Recognition_Zhijing_Hu.ipynb` 会从当前目录读取 `YaleB_32x32.mat`。
+`Face_Recognition_Reynold_Hu.ipynb` 会从当前目录读取 `YaleB_32x32.mat`。
 把下载到的文件放到本项目根目录即可，或修改 notebook 里的加载路径。
 
 ## 数据结构

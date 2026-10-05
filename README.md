@@ -160,9 +160,9 @@ reynold-learning-archive/
 
 | 项目 | 合作者 |
 |:---|:---|
-| `low-cost-ventilator` | Zhijing Hu · Travis B Thompson-Sevcik · Kevin J Donlan · Pik Luen Li · Prabhdeep Singh |
-| `hand-gestures-recognition` | Zhijing Hu · Zhikun Gan · Yifei Che |
-| `tripod-arms-robot` | Zhijing Hu · Keqin Wang |
+| `low-cost-ventilator` | Reynold Hu · Travis B Thompson-Sevcik · Kevin J Donlan · Pik Luen Li · Prabhdeep Singh |
+| `hand-gestures-recognition` | Reynold Hu · Zhikun Gan · Yifei Che |
+| `tripod-arms-robot` | Reynold Hu · Keqin Wang |
 
 ---
 
