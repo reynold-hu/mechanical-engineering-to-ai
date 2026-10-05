@@ -2,11 +2,23 @@
 
 <img src="assets/avatar.png" alt="Reynold Hu" width="132" />
 
-# Reynold Learning Archive
+# Mechanical Engineering → AI
 
-**Mechanical Engineering → Robotics**
+**从机械工程转到 AI / 机器人学的完整学习路线**
 
 <sub>Rutgers 与 JHU 的课程作业 · 项目源码 · 原理讲解</sub>
+
+<br />
+
+<sub>
+
+**A learning path from Mechanical Engineering to AI and Robotics** — 18 course
+projects from Rutgers University and Johns Hopkins University, each with source
+code and a written explanation of the underlying concept. For engineers from a
+non-CS background who want to move into machine learning, deep learning or
+robotics. No datasets included; the reasoning and the code are.
+
+</sub>
 
 <br />
 
@@ -52,7 +64,7 @@ CS50 → CS61A → CS61B + LeetCode → 方向选修
 | **05** | — | Coursera | 1 |
 
 ```
-reynold-learning-archive/
+mechanical-engineering-to-ai/
 ├── LEARNING-PATH.md          ⭐ 路线主文档（从这里开始）
 │
 ├── 01-rutgers-mechanical/    机械工程本科（2017–2021）
