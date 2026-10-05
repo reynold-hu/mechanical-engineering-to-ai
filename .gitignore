@@ -9,7 +9,12 @@ data/
 *.pt
 *.pth
 *.h5
+# 训练产物（从私有数据派生，不可公开）
+*.tflite
 *.hdf5
+*.onnx
+*.savedmodel
+*.ckpt
 *.pkl
 *.pickle
 *.parquet
