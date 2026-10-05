@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/avatar.png" alt="Reynolds Hu" width="132" />
+<img src="assets/avatar.png" alt="Reynold Hu" width="132" />
 
 # Reynolds Learning Archive
 
