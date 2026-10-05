@@ -4,7 +4,7 @@
 > 数据采集方法见 [`COLLECT.md`](COLLECT.md)
 Deep Learning Finel Project @ Johns Hopkins Univ
 
-- Group members: Reynold Hu, Zhikun Gan, Yifei Che
+- Group members: Reynold Hu, Zhikun G., Yifei C.
 - Created our own datasets
 - 8000+ Training dataset with 8 different hand gestures
 - Gesture labels: ['"Stop"', '"Good"', '"Yes"', '"Love you"', '"No way"', '"Okay"', '"Gimme a second"', '"Call me later"']

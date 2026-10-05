@@ -23,24 +23,31 @@ pip install opencv-python mediapipe numpy pandas
 
 ## 二、识别哪几种手势 ⚠️
 
-**这里有个坑，先说清楚：项目里有 _两套_ 分类器，各有各的标签文件。**
+**项目实际做的是 8 种手势**（见本目录 `README.md`），8000+ 训练样本：
 
-| 分类器 | 标签文件 | 标签 |
+| # | 手势 |
+|:---:|:---|
+| 1 | `Stop` |
+| 2 | `Good` |
+| 3 | `Yes` |
+| 4 | `Love you` |
+| 5 | `No way` |
+| 6 | `Okay` |
+| 7 | `Gimme a second` |
+| 8 | `Call me later` |
+
+### 两套分类器
+
+采集时**每一帧同时产出两种特征**，喂给两个不同的分类器：
+
+| 分类器 | 看什么 | 标签文件 |
 |:---|:---|:---|
-| **静态手势** | `model/keypoint_classifier/keypoint_classifier_label.csv` | `Open` `Close` `Pointer` `OK` |
-| **手部轨迹** | `model/point_history_classifier/point_history_classifier_label.csv` | `Stop` `Clockwise` `Counter Clockwise` `Move` |
+| **keypoint** | 手的**形状**（21 个关键点坐标） | `model/keypoint_classifier/keypoint_classifier_label.csv` |
+| **point_history** | 手的**运动轨迹**（关键点随时间的变化） | `model/point_history_classifier/point_history_classifier_label.csv` |
 
-- **keypoint** 分类器看的是**手的形状**（21 个关键点的位置）
-- **point_history** 分类器看的是**手的运动轨迹**（关键点随时间的变化）
-
-两套数据是**同一次采集**产出的 —— 采集脚本每一帧既存了关键点（给 keypoint），
-也存了轨迹（给 point_history）。
-
-> ⚠️ **已知的文档不一致**：本目录 `README.md` 里写的是
-> *"8000+ Training dataset with 8 different hand gestures"*，并列出
-> Stop / Good / Yes / Love you / No way / Okay / Gimme a second / Call me later ——
-> **这 8 个名字和上面两个标签文件都对不上**。
-> 以标签文件为准；README 那段应该是早期版本或写混了。（这条待本人核实）
+> ⚠️ **注意**：仓库里这两个标签文件是 **4 个标签的早期版本**
+> （`Open/Close/Pointer/OK` 和 `Stop/Clockwise/Counter Clockwise/Move`），
+> **不是最终 8 手势版的**。重新采集时**用上面那 8 个**，并把标签文件一起更新。
 
 **采集时每个手势多换几个角度**（正对、倾斜、远一点近一点），否则模型泛化会很差。
 
