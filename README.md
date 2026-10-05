@@ -2,7 +2,7 @@
 
 <img src="assets/avatar.png" alt="Reynold Hu" width="132" />
 
-# Reynolds Learning Archive
+# Reynold Learning Archive
 
 **一个机械工程师转 CS / Robotics 的真实轨迹**
 
@@ -33,7 +33,7 @@ CS50 → CS61A → CS61B + LeetCode → 方向选修
 
 **但它假设你从零开始。如果你是机械、土木、化工、EE 出身 —— 你不是。**
 
-我叫 Reynolds，本科机械工程，后来转到 Robotics。这个仓库是我 **2017–2023** 走过的每一个里程碑，
+我叫 Reynold，本科机械工程，后来转到 Robotics。这个仓库是我 **2017–2023** 走过的每一个里程碑，
 连**做得不完整的部分一起**放出来。
 
 > **👉 路线本身写在 [`LEARNING-PATH.md`](LEARNING-PATH.md)**
