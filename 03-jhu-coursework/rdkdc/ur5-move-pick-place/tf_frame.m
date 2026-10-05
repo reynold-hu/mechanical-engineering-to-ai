@@ -1,4 +1,4 @@
-% Author: Mengze Xu
+% Author: Mengze X.
 % Date: 09-30-2017 
 % Class to create and maintain a frame in tf 
 % communicate with ros through topic matlab_frame

@@ -6,7 +6,7 @@
 
 **Mechanical Engineering → Robotics**
 
-<sub>包含 Rutgers / JHU 的课程辅导与相关课程项目</sub>
+<sub>Rutgers 与 JHU 的课程作业 · 项目源码 · 原理讲解</sub>
 
 <br />
 
@@ -54,17 +54,33 @@ CS50 → CS61A → CS61B + LeetCode → 方向选修
 ```
 reynold-learning-archive/
 ├── LEARNING-PATH.md          ⭐ 路线主文档（从这里开始）
-├── 01-rutgers-mechanical/    机械本科 —— 起点
-├── 02-zju-summer-2018/       浙大暑校
-├── 03-jhu-coursework/        JHU 课程（按课号分组）
-│   ├── applied-math/         EN.553.688
-│   ├── machine-learning/     EN.601.475
-│   ├── deep-learning/        EN.520.438
-│   ├── deep-learning-final/  期末项目
-│   ├── ai-fundamentals/      计算机系 AI 课
-│   ├── rdkdc/                EN.530.646
-│   └── haptics/              EN.530.691
-└── 04-coursera/
+│
+├── 01-rutgers-mechanical/    机械工程本科（2017–2021）
+│   ├── README.md                └ 阶段说明
+│   ├── low-cost-ventilator/
+│   └── quadruped-robot-linkages/
+│
+├── 02-zju-summer-2018/       浙大暑校（2018）
+│   ├── README.md
+│   └── tripod-arms-robot/
+│
+├── 03-jhu-coursework/        JHU Robotics 硕士（2021–2023）
+│   ├── README.md                └ ★ 课程索引（课号 ↔ 目录 ↔ 教授）
+│   ├── applied-math/            EN.553.688
+│   ├── machine-learning/        EN.601.475
+│   ├── deep-learning/           EN.520.438
+│   ├── deep-learning-final/     同上 · 期末项目
+│   ├── rdkdc/                   EN.530.646
+│   ├── haptics/                 EN.530.691
+│   └── ai-fundamentals/         计算机系 AI 课（课号不明）
+│
+└── 04-coursera/              在线课程
+    ├── README.md
+    └── self-driving-vehicle-control/
+```
+
+> **每个阶段目录下都有一份 `README.md`**，说明这个阶段的时间、学校、课程、
+> 以及它在这条路线上的意义。**每个项目目录下都有 `NOTES.md`** 原理讲解。
 ```
 
 ---
