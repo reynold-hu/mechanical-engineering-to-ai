@@ -4,9 +4,9 @@
 
 # Reynold Learning Archive
 
-**一个机械工程师转 CS / Robotics 的真实轨迹**
+**Mechanical Engineering → Robotics**
 
-<sub>Rutgers 机械工程本科 → 浙大暑校 → JHU Robotics 硕士 → ?</sub>
+<sub>包含 Rutgers / JHU 的课程辅导与相关课程项目</sub>
 
 <br />
 
