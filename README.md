@@ -62,9 +62,9 @@ reynold-learning-archive/
 │   ├── deep-learning/        EN.520.438
 │   ├── deep-learning-final/  期末项目
 │   ├── ai-fundamentals/      计算机系 AI 课
-│   └── rdkdc/                EN.530.646
-├── 04-jhu-side-projects/
-└── 05-coursera/
+│   ├── rdkdc/                EN.530.646
+│   └── haptics/              EN.530.691
+└── 04-coursera/
 ```
 
 ---
@@ -100,7 +100,7 @@ reynold-learning-archive/
 |:---|:---|:---|
 | [`bikeshare-data-analysis`](03-jhu-coursework/machine-learning/bikeshare-data-analysis) | 共享单车行程时长影响因素分析 | pandas |
 
-**深度学习** <sub>EN.520.438 · ECE</sub>
+**深度学习** <sub>EN.520.438 · ECE · Vishal M. Patel</sub>
 
 | 项目 | 内容 | 技术栈 |
 |:---|:---|:---|
@@ -131,17 +131,17 @@ reynold-learning-archive/
 |:---|:---|:---|
 | [`ur5-move-pick-place`](03-jhu-coursework/rdkdc/ur5-move-pick-place) | UR5 机械臂移动与抓放轨迹规划 | **MATLAB** · R-VIZ |
 
-### 04 · JHU 课外项目
+**触觉与人机交互** <sub>EN.530.691 · Haptic Interface Design</sub>
 
 | 项目 | 内容 | 技术栈 |
 |:---|:---|:---|
-| [`haptic-hat`](04-jhu-side-projects/haptic-hat) | 为视障人士做的触觉避障帽 | **Arduino** |
+| [`haptic-hat`](03-jhu-coursework/haptics/haptic-hat) | 为视障人士做的触觉避障帽 | **Arduino** |
 
-### 05 · Coursera
+### 04 · Coursera
 
 | 项目 | 内容 | 技术栈 |
 |:---|:---|:---|
-| [`self-driving-vehicle-control`](05-coursera/self-driving-vehicle-control) | 自动驾驶横向控制 | Python |
+| [`self-driving-vehicle-control`](04-coursera/self-driving-vehicle-control) | 自动驾驶横向控制 | Python |
 
 ---
 
@@ -166,10 +166,40 @@ reynold-learning-archive/
 
 ---
 
+## 完成度
+
+**这个仓库里的项目不是都做完了** —— 每个项目 README 顶部有标注：
+
+| 徽章 | 含义 | 数量 |
+|:---:|:---|:---:|
+| 🟢 | 完成 | 12 |
+| 🟡 | 部分完成（README 里写明卡在哪） | 6 |
+| 🔴 | 草稿 | 0 |
+
+> **未完成不是缺陷，是这条路的真实样子。** 每个 🟡 项目都写了「当时卡在哪」和「想接着做需要补什么」。
+
+---
+
 ## 许可
 
 代码采用 [MIT License](LICENSE)。请注意：**部分项目是课程作业**，其中的算法框架与任务描述
 可能源自课程材料，版权归原课程与授课教师所有。
+
+### 引入的第三方代码
+
+`02-zju-summer-2018/tripod-arms-robot/reference/` 下有两份**第三方 MIT 许可代码**，
+用于补全该项目缺失的 Delta 机构逆运动学。各自的 `LICENSE` 文件与原作者署名**已保留**：
+
+| 来源 | 作者 | 许可 |
+|:---|:---|:---|
+| [12343954/Rotary-Delta-Robot-Kinematics](https://github.com/12343954/Rotary-Delta-Robot-Kinematics) | Cooloo AI | MIT |
+| [wiesnerroyal/delta-robot](https://github.com/wiesnerroyal/delta-robot) | wiesnerroyal | MIT |
+
+> **为什么只有这一个项目引入了外部代码？** 因为它是唯一一个我确认真有明确缺口、
+> 且能找到**许可证兼容**实现的项目。Delta 运动学最流行的开源库
+> （`tinkersprojects/Delta-Kinematics-Library`，53 ⭐）是 **GPL-3.0** ——
+> 引入会导致整个仓库被迫改许可，所以放弃。详见
+> [`reference/README.md`](02-zju-summer-2018/tripod-arms-robot/reference/README.md)。
 
 > **如果你正在上这些课 —— 请勿直接抄袭提交。**
 > 这个仓库的用途是让你看懂思路，以及看清楚**一条真实的路长什么样**。

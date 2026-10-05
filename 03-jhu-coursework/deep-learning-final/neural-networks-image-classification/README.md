@@ -1,4 +1,6 @@
 # Neural-Networks-for-Image-Classification
+
+> 🟢 完成 —— CNN + CIFAR-10 训练与优化器对比跑通
 AI Final Project on Deep learning @ Johns Hopkins Univ
 - Implemented an image classification model based on CNN.
 - Trained it on Cifar-10 dataset.

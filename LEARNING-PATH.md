@@ -98,7 +98,7 @@ Crash Course 科普 → 哈佛 CS50 → 伯克利 CS61A → CS61B + LeetCode →
 
 #### 2.3 深度学习
 
-📚 JHU Deep Learning — `EN.520.438`（ECE 开设）
+📚 JHU Deep Learning — `EN.520.438`（ECE 开设，**Vishal M. Patel** 授课）
 - 🏁 [`perceptron-logistic-regression`](03-jhu-coursework/deep-learning/perceptron-logistic-regression) —— 从零实现感知机与逻辑回归
 - 🏁 [`autoencoders`](03-jhu-coursework/deep-learning/autoencoders) —— 图像重建与去噪
 - 🏁 [`face-recognition`](03-jhu-coursework/deep-learning/face-recognition) —— k-NN 人脸识别
@@ -118,6 +118,15 @@ Crash Course 科普 → 哈佛 CS50 → 伯克利 CS61A → CS61B + LeetCode →
 
 > **这门课是我机械背景直接变现的地方** —— 运动学、雅可比、轨迹规划，我本科学过一半。
 
+#### 2.6 触觉与人机交互
+
+📚 **Haptic Interface Design for Human-Robot Interaction** — JHU `EN.530.691`（机械系）
+- 🏁 [`haptic-hat`](03-jhu-coursework/haptics/haptic-hat) —— 为视障人士做的触觉避障帽
+
+> 这门课的推荐背景写的是「动力学、反馈控制、机电一体化、MATLAB」——
+> **几乎就是我本科机械专业的课程表。** 这是转专业的人最容易忽略的优势：
+> 有些研究生课，你的本科基础比 CS 出身的人还硬。
+
 ### 阶段 3 · 深度学习进阶
 
 - 🏁 [`neural-networks-image-classification`](03-jhu-coursework/deep-learning-final/neural-networks-image-classification) —— CNN 分类 CIFAR-10
@@ -130,13 +139,13 @@ Crash Course 科普 → 哈佛 CS50 → 伯克利 CS61A → CS61B + LeetCode →
 
 ### 阶段 4 · 硬件与嵌入式的另一条线
 
-- 🏁 [`haptic-hat`](04-jhu-side-projects/haptic-hat) —— 为视障人士做的触觉避障帽（Arduino）
+- 🏁 [`haptic-hat`](03-jhu-coursework/haptics/haptic-hat) —— 为视障人士做的触觉避障帽（Arduino）
 
 📚 [Nand2Tetris](https://www.nand2tetris.org/) —— 从门电路造一台计算机，理解硬件到软件的桥
 
 ### 旁支 · Coursera
 
-- 🏁 [`self-driving-vehicle-control`](05-coursera/self-driving-vehicle-control) —— 自动驾驶横向控制
+- 🏁 [`self-driving-vehicle-control`](04-coursera/self-driving-vehicle-control) —— 自动驾驶横向控制
 
 ---
 

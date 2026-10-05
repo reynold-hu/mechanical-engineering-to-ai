@@ -1,4 +1,6 @@
 # DL-Perceptron-and-Logistic-Regression
+
+> 🟢 完成 —— 从零实现的梯度下降 + MNIST 二分类代码完整
 Deep learning mini project on Perceptron and Logistic Regression @ Johns Hopkins Univ
 
 - Instructor: Vishal M. Patel

@@ -1,4 +1,6 @@
 # ML-Bikeshare-Data-Analysis
+
+> 🟢 完成 —— 数据清洗→特征工程→建模全流程跑通
 Machine Learning Project on Bikeshare Data Analysis @ Johns Hopkins
 
 - Instructor: Prof. Mark Dredze
