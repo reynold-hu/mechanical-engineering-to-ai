@@ -145,6 +145,41 @@ reynold-learning-archive/
 
 ---
 
+## 每个项目都有原理讲解
+
+**不只是代码 —— 每个项目目录下都有一份 `NOTES.md`**，讲清楚：
+
+- 这个作业在教**什么概念**（不是"用了什么库"）
+- **关键算法/公式**，必要时给出推导
+- 当年的**作业要求**和我的实现思路
+- 这项技术**今天发展成什么样**（从 minimax 到 AlphaGo，从 LSTM 到 GPT…）
+- **自己动手**的实验建议和改进方向
+
+> 总共 18 份、约 2900 行。**这是这个仓库最主要的教学价值所在。**
+
+| 项目 | 讲解主题 |
+|:---|:---|
+| `chess-playing-agent` | 博弈树、Minimax、Alpha-Beta 剪枝 |
+| `search-agents` | BFS / DFS / 一致代价搜索、A\* |
+| `resilient-swarming` | Boids、涌现、集群弹性 |
+| `perceptron-logistic-regression` | **从零手写梯度下降**、交叉熵 |
+| `autoencoders` | 自监督、瓶颈、去噪 → 扩散模型 |
+| `face-recognition` | k-NN、维度灾难、PCA/LDA |
+| `fine-tuning` | 迁移学习、为何冻结层、LoRA 的思想源头 |
+| `neural-networks-image-classification` | 卷积三性质、优化器、学习率调度 |
+| `language-model-lyrics` | RNN → LSTM、梯度消失、温度采样 |
+| `hand-gestures-recognition` | 用先验知识降维、MediaPipe |
+| `ur5-move-pick-place` | 逆运动学 / 速率控制 / 梯度控制对比 |
+| `tripod-arms-robot` | **Delta 并联机构逆解推导** |
+| `quadruped-robot-linkages` | 四杆机构、Gruebler 自由度、余弦定理 |
+| `haptic-hat` | 触觉编码、人机闭环、为何不用声音 |
+| `low-cost-ventilator` | 节俭工程、fail-safe 设计 |
+| `bikeshare-data-analysis` | 特征工程、多重共线性、可解释性 |
+| `python-in-applied-math` | 动态规划、布朗运动、订单簿数据结构 |
+| `self-driving-vehicle-control` | PID、积分饱和、前馈 |
+
+---
+
 ## 关于数据集
 
 **本仓库不包含任何数据集、模型权重或课程提供的材料。** 每个需要的项目目录下有
